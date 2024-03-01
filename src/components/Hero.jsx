@@ -21,6 +21,8 @@ const Hero = () => {
           Fullstack Developer who loves <br className='sm:block hidden'></br> to build web apps. </p>
         </div>
       </div>
+
+      <ComputersCanvas />
       </section>
     );
 }
