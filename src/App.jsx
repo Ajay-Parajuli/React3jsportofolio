@@ -1,10 +1,16 @@
 import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-       <div></div>
+      <div className="relative z-0 bg-primary">
+       <div className="">
+            <Navbar />
+           
+          </div>
+       </div>
       </BrowserRouter>
     </>
   )
