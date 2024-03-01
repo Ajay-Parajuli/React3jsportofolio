@@ -20,8 +20,8 @@ const Computers = ({ isMobile }) => {
           shadow-mapSize-width={1024}
          />
         <primitive object={scene} 
-        scale={isMobile ? 0.7 : 0.75} 
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.6 : 0.75} 
+        position={isMobile ? [0, -3, -2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]} />
       </mesh>
     );
@@ -30,6 +30,30 @@ const Computers = ({ isMobile }) => {
 
 
   const ComputersCanvas = () => {
+    const [isMobile, setIsMobile] = useState(false);
+  
+    useEffect(() => {
+      // Check if the user is on a mobile device
+      const mediaQuery = window.matchMedia('(max-width: 500px)'); 
+      // Set the initial state
+      setIsMobile(mediaQuery.matches);
+  
+      // Listen for changes in the media query
+  
+      const handleMediaQueryChange = (e) => {
+        setIsMobile(e.matches);
+      };
+  
+      // Add the listener to the media query
+  
+      mediaQuery.addEventListener('change', handleMediaQueryChange);
+  
+    
+      return () => {
+        mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      };
+  
+    }, []);
   
     return (
       <Canvas 
