@@ -18,11 +18,22 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#915eff]'>Prawal </span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Fullstack Developer who loves <br className='sm:block hidden'></br> to build web apps. </p>
+          I am looking for <span className='text-yellow-600'>Frontend</span> <span>or</span> <span className=' text-yellow-600'>Backend</span><br></br>related intership </p> 
         </div>
       </div>
 
       <ComputersCanvas />
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 '>
+            <motion.div animate={{y: [0, 24, 0]
+            }}
+            transition={{repeat: Infinity, duration: 1.5, repeatType: 'loop' }}
+            className='w-3 h-3 bg-secondary rounded-full mb-1'
+            />
+          </div>
+        </a>
+      </div>
       </section>
     );
 }
