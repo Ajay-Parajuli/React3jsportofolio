@@ -13,9 +13,6 @@ import {
     mongodb,
     git,
     figma,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -158,7 +155,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: "",
       source_code_link: "https://github.com/",
     },
     {
@@ -178,7 +175,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: "",
       source_code_link: "https://github.com/",
     },
     {
@@ -198,7 +195,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: "",
       source_code_link: "https://github.com/",
     },
   ];
