@@ -25,12 +25,21 @@ const Ball = (props) => { // Change the function signature to accept props
     );
   };
 
-const BallCanvas = ({ icon }) => {
+  const BallCanvas = ({ icon }) => {
+  
+  
     return (
-     <></>
+      <Canvas   
+        gl={{ preserveDrawingBuffer: true }}
+      >
+        <Suspense fallback={<CanvasLoader />}> 
+          <OrbitControls enableZoom={false} />
+          <Ball imgUrl={icon} /> 
+        </Suspense>
+        <Preload all /> 
+      </Canvas>
     );
   };
   
-
-  
   export default BallCanvas;
+  
