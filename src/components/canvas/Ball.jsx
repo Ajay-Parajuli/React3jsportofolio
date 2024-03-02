@@ -30,6 +30,7 @@ const Ball = (props) => { // Change the function signature to accept props
   
     return (
       <Canvas   
+        style={{ cursor: "pointer" }}
         gl={{ preserveDrawingBuffer: true }}
       >
         <Suspense fallback={<CanvasLoader />}> 
