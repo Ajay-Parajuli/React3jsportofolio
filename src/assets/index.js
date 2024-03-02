@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-
+import profphoto from "./profphoto.jpg";
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -25,6 +25,7 @@ export {
   logo,
   backend,
   creator,
+  profphoto,
   mobile,
   web,
   github,
