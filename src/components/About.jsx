@@ -1,18 +1,18 @@
-
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc"; 
 import { profphoto } from "../assets";
+import {link} from "../assets";
 
 
 const About = () => {
   return (
     <>
-        <div className="flex w-full">    
-      <motion.div variants={textVariant()} className="w-[50%]">
+
+
+        <div className="w-full flex flex-col lg:flex-row lg:justify-between">    
+      <motion.div variants={textVariant()} className="">
       <p className={styles.sectionSubText}
       >Introduction</p>
       <h2 className={styles.sectionHeadText}
@@ -35,9 +35,17 @@ I specialize as a Fullstack Developer. My skill set spans a diverse range of tec
         <p className="">+4571630205</p>
         </div>
 
+        <h2 className=" font-bold mt-2">Connect on linkedin</h2>
+        <div className="flex items-center justify-between mt-2">
+        <p className="text-secondary">linkedin :</p>
+        <a href="https://www.linkedin.com/in/prawal-parajuli-437528205/" target="_blank" rel="noreferrer"><img className="w-10" src={link}></img></a>
+        </div>
+
+     
+
     </div>
     <h2 className=" font-bold mt-5">Hobbies</h2>
-    <ul className="flex justify-between">
+    <ul className="flex justify-between flex-wrap">
         <li className="text-secondary mt-2  bg-blue-900 p-1 rounded ">#Pure Gym</li>
         <li className="text-secondary mt-2  bg-blue-900 p-1 rounded">#Guitar</li>
         <li className="text-secondary mt-2  bg-blue-900 p-1 rounded">#Coding for fun</li>
@@ -50,8 +58,8 @@ I specialize as a Fullstack Developer. My skill set spans a diverse range of tec
  </div>
 
     </motion.div>
-    <motion.div variants={textVariant()} className="w-[50%] items-center flex justify-center">
-    <img src={profphoto} alt="profileimg" className="w-[60%] object-cover" />
+    <motion.div variants={textVariant()} className="w-full justify-center flex">
+    <img src={profphoto} alt="profileimg" className="w-[90%] lg:w-[100%] xl:w-[60%] object-cover" />
     </motion.div>
     </div>
     </>
