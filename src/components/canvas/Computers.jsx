@@ -57,7 +57,7 @@ const Computers = ({ isMobile }) => {
   
     return (
       <Canvas 
-      style={{ cursor: "grab" }}
+      style={{ cursor: "pointer" }}
         shadows
         camera={{ position: [20, 3, 5], fov: 25 }} // 
         gl={{ preserveDrawingBuffer: true }}
