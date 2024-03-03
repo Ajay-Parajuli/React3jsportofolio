@@ -1,17 +1,20 @@
-import { Tilt } from "react-tilt";
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import {github} from '../assets';
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import {motion} from "framer-motion";
 
-import { SectionWrapper } from '../hoc';
-import {projects} from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import 'react-vertical-timeline-component/style.min.css';
+
+import {styles} from "../styles";
+import {experiences} from "../constants";
+import {SectionWrapper} from "../hoc";
+
+import { textVariant} from "../utils/motion";
 
 
-
+const EducationCard = ({ experience }) => (
+ <></>
+  )
 
 const Education = () => {
-
 
 };
 
