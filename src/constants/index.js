@@ -10,6 +10,7 @@ import {
     school,
     knowit,
     git,
+    chatapp,
     figma,
     threejs,
   } from "../assets";
@@ -136,8 +137,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "https://github.com/",
+      image: chatapp,
+      source_code_link: "https://github.com/Ajay-Parajuli/vanillachatapp",
     },
     {
       name: "Remix contact app",
