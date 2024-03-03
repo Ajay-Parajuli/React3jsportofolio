@@ -5,6 +5,7 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
+import StarsCanvas from "./components/canvas/StarsCanvas";
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
           <Tech />
           <Education />
           <Projects />
+          <div className="relative z-0">
+            <StarsCanvas />
+          </div>
        </div>
       </BrowserRouter>
     </>
