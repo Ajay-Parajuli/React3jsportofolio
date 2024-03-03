@@ -7,6 +7,8 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    school,
+    knowit,
     git,
     figma,
     threejs,
@@ -78,9 +80,9 @@ import {
   
   const experiences = [
     {
-      title: "Multimeida Designer",
-      company_name: "Ervehvers Akademiet",
-      icon: "",
+      title: "Multimedia Designer",
+      company_name: "Erhvervsakademi Aarhus (EAAA)",
+      icon: school,
       iconBg: "#383E56",
       date: "Janaury 2021 - Janaury 2023",
       points: [
@@ -91,8 +93,8 @@ import {
     },
     {
       title: "Frontend Developer Intern",
-      company_name: "Know it",
-      icon: "",
+      company_name: "Know-it Experience A/S",
+      icon: knowit,
       iconBg: "#E6DEDD",
       date: "August 2022 - December 2022",
       points: [
@@ -103,14 +105,14 @@ import {
     },
     {
       title: "Web Development",
-      company_name: "Ervehvers Akademiet",
-      icon: "",
+      company_name: "Erhvervsakademi Aarhus (EAAA)",
+      icon: school,
       iconBg: "#E6DEDD",
       date: "August 2023 - January 2025",
       points: [
-       "Gathered backend knowledge using PHP and MySQL",
-       "Gathered backend knowledge using Remix and MongoDB/Mongoose",
-       "Gathered backend knowledge using Node JS, express and MongoDB",
+       "Gathered backend knowledge of using PHP and MySQL",
+       "Gathered backend knowledge of using Remix and MongoDB/Mongoose",
+       "Gathered backend knowledge of using Node JS, express and MongoDB",
       ],
     },
   ];
