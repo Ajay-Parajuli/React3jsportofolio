@@ -23,9 +23,16 @@ const Stars = (props) => {
     )
   }
 
-const StarsCanvas = () => {
+
+  const StarsCanvas = () => {
     return (
     <div className='z-[-1] absolute inset-0 w-full h-auto'>
+      <Canvas camera={{position : [0, 0, 1]}} >
+        <Suspense fallback={null}>
+          <Stars />
+        </Suspense>
+        <Preload all />
+      </Canvas>
     </div>
     )
   }

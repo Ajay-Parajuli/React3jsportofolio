@@ -58,9 +58,7 @@ I specialize as a Fullstack Developer. My skill set spans a diverse range of tec
  </div>
 
     </motion.div>
-    <motion.div variants={textVariant()} className="w-full justify-center flex lg:items-center">
-    <img src={profphoto} alt="profileimg" className="w-[90%] lg:w-[100%] xl:w-[75%] object-cover" />
-    </motion.div>
+
     </div>
     </>
   )
