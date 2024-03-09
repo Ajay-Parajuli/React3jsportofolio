@@ -17,6 +17,7 @@ import html from "./tech/html.png";
 import chatapp from "./chatapp.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import getFit from "./getFit.png";  
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
@@ -29,6 +30,7 @@ export {
   backend,
   creator,
   profphoto,
+  getFit,
   chatapp,
   knowit,
   school,

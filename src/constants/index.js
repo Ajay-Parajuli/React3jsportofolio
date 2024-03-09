@@ -11,21 +11,22 @@ import {
     knowit,
     git,
     chatapp,
+    getFit,
     figma,
     threejs,
   } from "../assets";
   
   export const navLinks = [
     {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
       title: "Contact",
     },
   ];
@@ -122,7 +123,7 @@ import {
   const projects = [
     {
       name: "ChatApp",
-      description: "chat application that allows users to send and receive messages in real-time",     
+      description: "chat application that allows users to send and receive messages in real-time.",     
  tags: [
         {
           name: "php",
@@ -139,46 +140,28 @@ import {
       ],
       image: chatapp,
       source_code_link: "https://github.com/Ajay-Parajuli/vanillachatapp",
+      livedemo: "https://vanillachatapp.paparajuli.dk/",
     },
     {
-      name: "Remix contact app",
-      description:"Contact app that allows users to add, delete, and update contacts. It also has a search feature to search for contacts by name.", 
-           tags: [
+      name: "GetFit App",
+      description: "Post-Events app with user authentication allows to execute CRUD operations and more.",     
+ tags: [
         {
-          name: "remix",
+          name: "Remix",
           color: "blue-text-gradient",
+        },
+        {
+          name: "Mongoose",
+          color: "green-text-gradient",
         },
         {
           name: "Tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb/mongoose",
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "",
-      description: "",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "",
-      source_code_link: "https://github.com/",
+      image: getFit,
+      source_code_link: "https://github.com/eaaa-dob-wu-e23a/awu-exam-Ajay-Parajuli",
+      livedemo: "https://awu-exam-d7e2f4af0d3a.herokuapp.com/",
     },
   ];
   
