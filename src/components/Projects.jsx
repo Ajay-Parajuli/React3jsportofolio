@@ -65,7 +65,7 @@ const Projects = () => {
         <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 max-w-3xl text-[17px] text-secondary leading-[30px]'
         >
-          Here are some of the projects I have worked on. You can find more of my work on my github profile.
+          Here are some of the projects I have worked on. You can find more of my work on my github profile. Click on the cards below to check out the live demo.
         </motion.p>
       </div>
       <div className='flex flex-wrap gap-7 mt-20'>
@@ -79,5 +79,5 @@ const Projects = () => {
   )
 };
 
-export default SectionWrapper(Projects, '')
+export default SectionWrapper(Projects, 'projects')
 

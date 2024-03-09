@@ -11,21 +11,22 @@ import {
     knowit,
     git,
     chatapp,
+    getFit,
     figma,
     threejs,
   } from "../assets";
   
   export const navLinks = [
     {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
       title: "Contact",
     },
   ];
@@ -122,7 +123,7 @@ import {
   const projects = [
     {
       name: "ChatApp",
-      description: "chat application that allows users to send and receive messages in real-time",     
+      description: "chat application that allows users to send and receive messages in real-time.",     
  tags: [
         {
           name: "php",
@@ -140,6 +141,27 @@ import {
       image: chatapp,
       source_code_link: "https://github.com/Ajay-Parajuli/vanillachatapp",
       livedemo: "https://vanillachatapp.paparajuli.dk/",
+    },
+    {
+      name: "GetFit App",
+      description: "Post-Events app with user authentication allows to execute CRUD operations and more.",     
+ tags: [
+        {
+          name: "Remix",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongoose",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: getFit,
+      source_code_link: "https://github.com/eaaa-dob-wu-e23a/awu-exam-Ajay-Parajuli",
+      livedemo: "https://awu-exam-d7e2f4af0d3a.herokuapp.com/",
     },
   ];
   

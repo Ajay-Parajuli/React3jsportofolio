@@ -8,12 +8,10 @@ import {link} from "../assets";
 const About = () => {
   return (
     <>
-
-
         <div className="w-full flex flex-col lg:flex-row lg:justify-between">    
       <motion.div variants={textVariant()} className="">
       <p className={styles.sectionSubText}
-      >About</p>
+      >Contact</p>
       <h2 className={styles.sectionHeadText}
       >Overview</h2>
         <p 
@@ -50,10 +48,6 @@ I specialize as a Fullstack Developer. My skill set spans a diverse range of tec
         <li className="text-secondary mt-2  md:mr-4 bg-blue-900 p-1 rounded">#Coding for fun</li>
         <li className="text-secondary mt-2  md:mr-4 bg-blue-900 p-1 rounded">#Gaming</li>
     </ul>
- </div>
-
- <div className="mt-10">
-    <button className=" bg-orange-700 p-2 rounded cursor-pointer">Download CV</button>
  </div>
 
     </motion.div>
