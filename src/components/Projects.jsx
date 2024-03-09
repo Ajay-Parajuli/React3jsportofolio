@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 
 
-const ProjectCard = ({name, description, index, source_code_link, image, tags, }) => {
+const ProjectCard = ({name, description, index, source_code_link, image, tags, livedemo }) => {
     return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt options={{
@@ -17,13 +17,15 @@ const ProjectCard = ({name, description, index, source_code_link, image, tags, }
           scale: 1,
           speed: 450,
         }} className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]">
-          <div className="relative w-full h-[230px]"> 
+          <div onClick={() => window.open
+              (livedemo, "_blank")} className="relative w-full h-[230px] cursor-pointer"> 
             <img src={image} alt={name} className="w-full h-full object-contain" />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div onClick={() => window.open
               (source_code_link, "_blank")} className="flex justify-center items-center rounded-full w-10 h-10 cursor-pointer black-gradient">
                 <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
               </div>
+
             </div>
           </div>
   

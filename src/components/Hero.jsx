@@ -18,7 +18,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#915eff]'>Prawal </span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am looking for <span className='text-yellow-600'>Frontend</span> <span>or</span> <span className=' text-yellow-600'>Backend</span><br></br>related intership </p> 
+          I am looking for <span className='text-yellow-600'>Frontend</span> <span>and/or</span> <span className=' text-yellow-600'>Backend</span><br></br>related internship </p> 
         </div>
       </div>
 

@@ -139,46 +139,7 @@ import {
       ],
       image: chatapp,
       source_code_link: "https://github.com/Ajay-Parajuli/vanillachatapp",
-    },
-    {
-      name: "Remix contact app",
-      description:"Contact app that allows users to add, delete, and update contacts. It also has a search feature to search for contacts by name.", 
-           tags: [
-        {
-          name: "remix",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb/mongoose",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "",
-      description: "",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "",
-      source_code_link: "https://github.com/",
+      livedemo: "https://vanillachatapp.paparajuli.dk/",
     },
   ];
   
