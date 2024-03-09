@@ -138,6 +138,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      auth: {
+        email: "test@hotmail.com",
+        password: "Prawal123",
+      },
       image: chatapp,
       source_code_link: "https://github.com/Ajay-Parajuli/vanillachatapp",
       livedemo: "https://vanillachatapp.paparajuli.dk/",
@@ -159,6 +163,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      auth: {
+        email: "user7@example.com",
+        password: "SecurePass789",
+      },
       image: getFit,
       source_code_link: "https://github.com/eaaa-dob-wu-e23a/awu-exam-Ajay-Parajuli",
       livedemo: "https://awu-exam-d7e2f4af0d3a.herokuapp.com/",

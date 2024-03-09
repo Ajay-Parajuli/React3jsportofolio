@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 
 
-const ProjectCard = ({name, description, index, source_code_link, image, tags, livedemo }) => {
+const ProjectCard = ({name, description, index, source_code_link, image, tags, livedemo, auth }) => {
     return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt options={{
@@ -37,6 +37,8 @@ const ProjectCard = ({name, description, index, source_code_link, image, tags, l
                   {description}
                   </p>
           </div>
+
+          
   
           <div className="flex flex-wrap gap-2 mt-4">
               {tags.map((tag) => (
@@ -44,6 +46,11 @@ const ProjectCard = ({name, description, index, source_code_link, image, tags, l
                   #{tag.name}
                 </p>
              ))}
+          </div>
+
+          <div className="flex flex-col gap-2 mt-4">
+           <p> Email: <span className="text-green-300"> {auth.email}</span></p>
+           <p> Password: <span className="text-red-200"> {auth.password}</span></p>
           </div>
   
         </Tilt>
@@ -74,6 +81,7 @@ const Projects = () => {
           index={index}
           {...project} />
        ))}
+
       </div>
     </>
   )
