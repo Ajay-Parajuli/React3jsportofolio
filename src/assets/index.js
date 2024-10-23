@@ -17,13 +17,13 @@ import html from "./tech/html.png";
 import chatapp from "./chatapp.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import getFit from "./getfit.png";  
+import getFit from "./getfit.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import makeen from "./makeen.jpg";
 
 export {
   logo,
@@ -47,6 +47,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  makeen,
   reactjs,
   tailwind,
   typescript,
